@@ -33,8 +33,6 @@ export default {
     },
 
     watch: {
-        // keyborad event
-
         cells: {
             handler() {
                 this.checkGameOver()
